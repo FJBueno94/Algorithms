@@ -23,4 +23,3 @@ def test_encrypt_message():
     bigger_key = 10
 
     assert encrypt_message(valid_message, bigger_key) == "molleH"
-
